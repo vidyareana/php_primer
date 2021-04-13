@@ -4,13 +4,11 @@
     <h1>Functions</h1>
 
     <?php 
-
         /*Defining a Function */
 
         function writeMessage(){
             echo "You are really a nice person, Have a nice time! <br/>";
         }
-
         /* Calling a Function */
         writeMessage();
         
@@ -25,7 +23,6 @@
             $num2 = $num2 + 1;
             echo "The sum of $num1 and $num2 is: $sum <br/>";
         }
-
         /*Pass by Reference - use ampersand in parameter */
         function changeNum(&$num){
             $num = $num + 10;
